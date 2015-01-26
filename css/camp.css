@@ -2,9 +2,9 @@
  font-family: 'Noto Sans CJK TC Thin';
  src: url('/font/NotoSansCJKtc-Thin.eot');
  src: local('Noto Sans CJK TC Thin'),
- 	  url('/font/NotoSansCJKtc-Thin.otf') format('otf'),
-      url('/font/NotoSansCJKtc-Thin.woff') format('woff'),
+ 	  url('/font/NotoSansCJKtc-Thin.woff') format('woff'),
       url('/font/NotoSansCJKtc-Thin.ttf') format('truetype'),
+      url('/font/NotoSansCJKtc-Thin.svg') format('svg'),
 }
 
 html, body, div, span, applet, object, iframe,
