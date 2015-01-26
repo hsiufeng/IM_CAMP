@@ -1,3 +1,12 @@
+@font-face {
+ font-family: 'Noto Sans CJK TC Thin';
+ src: url('/font/NotoSansCJKtc-Thin.eot');
+ src: local('Noto Sans CJK TC Thin'),
+ 	  url('/font/NotoSansCJKtc-Thin.otf') format('otf'),
+      url('/font/NotoSansCJKtc-Thin.woff') format('woff'),
+      url('/font/NotoSansCJKtc-Thin.ttf') format('truetype'),
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -582,11 +591,4 @@ h5 span{
 	border-top: 3px dotted #0000C6;
 }
 
-@font-face {
- font-family: 'Noto Sans CJK TC Thin';
- src: url('Noto Sans CJK TC.eot');
- src: local('Noto Sans CJK TC'),
- 	  url('/font/NotoSansCJKtc-Thin.otf') format('otf'),
-      url('Noto Sans CJK TC.woff') format('woff'),
-      url('Noto Sans CJK TC.ttf') format('truetype'),
-} 
+ 
