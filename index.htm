@@ -88,7 +88,7 @@
 			$('#book-zoom').mousewheel(function(event, delta, deltaX, deltaY) {
 
 				var data = $(this).data(),
-					step = 30,
+					step = 24,
 					flipbook = $('.sample-docs'),
 					actualPos = $('#slider').slider('value')*step;
 
@@ -197,7 +197,7 @@
 				gradients: true,
 				autoCenter: true,
 				duration: 1000,
-				pages: 30,
+				pages: 24,
 				when: {
 
 				turning: function(e, page, view) {
